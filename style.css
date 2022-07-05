@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: none;
+}
+/* scroll bar */
+
+/* end scroll bar */
+
+/* similar styled content */
+section{
+    padding:100px 0;
+}
+.about, .projects, .skills, .contact, footer {
+    font-family: 'Poppins', sans-serif
+}
+.about .about-text, .projects .projects-text, .skills .skills-text .contact .contact-text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 65px;
+    padding-bottom: 25px;
+    font-family: 'Ubantu', sans-serif;
+}
+
+/* Menu Buttons Styling */
+
+.menu-btn{
+    font-size: 25px;
+    color: rgb(122, 12, 12);
+    cursor: crosshair;
+    display: auto;
+}
+.scroll-btn{
+    height:45px;
+    width: 40px;
+    position: fixed;
+    background: rgb(157, 33, 33);
+    right:30px;
+    bottom: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffff;
+    z-index: 9999;
+    font-size: 35px;
+    cursor:pointer;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    opacity: 2;
+    pointer-events: visiblePainted;
+    transition:all 0.3s ease;
+}
+
+
+/* Nav Styling */
+
+.nav{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    width: 100%;
+    padding: 25px, 0;
+    transition: all 0.3s ease;
+}
