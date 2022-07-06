@@ -79,3 +79,12 @@ section .title{
     position: fixed;
     z-index: 999;
 }
+.nav .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav.stick{
+    padding: 15px 0;
+    background: burlywood;
+}
