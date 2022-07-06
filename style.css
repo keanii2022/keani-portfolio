@@ -9,11 +9,9 @@
 html{
     scroll-behavior: none;
 }
-/* scroll bar */
 
-/* end scroll bar */
+/* Similar Styled Content */
 
-/* similar styled content */
 section{
     padding:100px 0;
 }
@@ -48,7 +46,7 @@ section .title{
     height:45px;
     width: 40px;
     position: fixed;
-    background: rgb(157, 33, 33);
+    background: burlywood;
     right:30px;
     bottom: 15px;
     text-align: center;
@@ -63,7 +61,14 @@ section .title{
     pointer-events: visiblePainted;
     transition:all 0.3s ease;
 }
-
+.scroll-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-btn.hover{
+    filter: brightness(80%)
+}
 
 /* Nav Styling */
 
@@ -71,5 +76,6 @@ section .title{
     font-family: 'Ubuntu Condensed', sans-serif;
     width: 100%;
     padding: 25px, 0;
-    transition: all 0.3s ease;
+    position: fixed;
+    z-index: 999;
 }
