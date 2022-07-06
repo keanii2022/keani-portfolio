@@ -10,6 +10,10 @@ html{
     scroll-behavior: none;
 }
 
+/* Webkit Scroll Bar */
+
+/* end */
+
 /* Similar Styled Content */
 
 section{
@@ -32,6 +36,55 @@ section .title{
     margin-bottom: 65px;
     padding-bottom: 25px;
     font-family: 'Ubantu', sans-serif;
+}
+
+/* Nav Styling */
+
+.nav{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    width: 100%;
+    padding: 25px, 0;
+    position: fixed;
+    z-index: 999;
+}
+.nav .max-width{
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+}
+.nav.sticky{
+    padding: 15px 0;
+    background: burlywood;
+}
+
+.nav .nav-menu li{
+    list-style: none;
+    display: inline-block;
+}
+.nav .name-logo a {
+    color:rgb(87, 173, 248);
+    font-size: 35px;
+    font-weight: 600;
+}
+.nav .name-logo a span {
+    color: rgb(206, 107, 82);
+    transition: all 0.3s ease;
+}
+.nav.sticky .logo a span{
+    color: #ffff;
+}
+.nav.sticky .menu li a:hover{
+    color: aliceblue;
+}
+.nav .nav-menu li a{
+font-size: 18px;
+font: weight 450px;
+display: block;
+margin-left: 25px;
+transition: all 03s ease;
+}
+.nav .nav-menu li a:hover{
+    color:rgb(100, 150, 56);
 }
 
 /* Menu Buttons Styling */
@@ -68,23 +121,4 @@ section .title{
 }
 .scroll-btn.hover{
     filter: brightness(80%)
-}
-
-/* Nav Styling */
-
-.nav{
-    font-family: 'Ubuntu Condensed', sans-serif;
-    width: 100%;
-    padding: 25px, 0;
-    position: fixed;
-    z-index: 999;
-}
-.nav .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav.stick{
-    padding: 15px 0;
-    background: burlywood;
 }

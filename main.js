@@ -5,12 +5,30 @@ $(document).ready(function(){
         if(this.scrollY > 20){
             $('.nav').addClass("sticky");
         }else{
-            $('.nav').removeClass()
+            $('.nav').removeClass("sticky")
         }
-    })
+        // Scroll Show/Hide Effect
+        if(this.scrollY > 500){
+            $('.scroll-btn').addClass("show");
+        }else{
+            $('.scroll-btn').removeClass("show");
+        }
+    });
+    // slide up
+    $('.scroll-btn').click(function(){
+        $('html').animate({scrollTop: 0});
+        // removes smoothness on slide-up btn 
+        $('html').css("scrollBehavior", "auto")
+    });
+
+    $('.nav .nav-menu li a').click(function(){
+        // smooth scroll back on menu clicks
+        $('html').css("scrollBehavior", "smooth")
+    });
+
+    // menu/nav toggle
+    $('.menu-btn').click(function(){
+        $('.nav .menu').toggleClass("active")
+        $('.menu-btn i').toggleClass("active")
+    });
 });
-        // Menu/Nav Show Effect
-$('.menu-btn').click(function () {
-    $('.nav . menu').toggleClass("active");
-    $('.menu-btn i'). toggleClass("active");
-})
