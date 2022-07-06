@@ -14,7 +14,7 @@ $(document).ready(function(){
             $('.scroll-btn').removeClass("show");
         }
     });
-    // slide up
+        // slide up
     $('.scroll-btn').click(function(){
         $('html').animate({scrollTop: 0});
         // removes smoothness on slide-up btn 
@@ -26,9 +26,24 @@ $(document).ready(function(){
         $('html').css("scrollBehavior", "smooth")
     });
 
-    // menu/nav toggle
+        // menu/nav toggle
     $('.menu-btn').click(function(){
         $('.nav .menu').toggleClass("active")
         $('.menu-btn i').toggleClass("active")
     });
 });
+
+    // typing effects
+    var typed = new Typed(".typing", {
+        strings:["Father", "Software Engineer", "Small Business Owner", "Writer", "Team Player", "COMMUNIST" ],
+        typeSpeed: 100,
+        backSpeed:60,
+        loop:true
+    });
+    
+    var typed = new Typed(".typing-2", {
+        strings: ["Father", "Software Engineer", "Small Business Owner", "Writer", "Team Player", "COMMUNIST" ],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
