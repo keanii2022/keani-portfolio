@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing effects
     var typed = new Typed(".typing", {
-        strings:["Father", "Software Engineer", "Small Business Owner", "Writer", "Team Player", "COMMUNIST" ],
+        strings:["Father", "Software Engineer", "Small Business Owner", "Writer", "Team Player"],
         typeSpeed: 100,
         backSpeed:60,
         loop:true
     });
     
     var typed = new Typed(".typing-2", {
-        strings: ["Father", "Software Engineer", "Small Business Owner", "Writer", "Team Player", "COMMUNIST" ],
+        strings: ["Father", "Software Engineer", "Small Business Owner", "Writer", "Team Player", ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

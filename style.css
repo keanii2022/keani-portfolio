@@ -38,6 +38,57 @@ section .title{
     font-family: 'Ubantu', sans-serif;
 }
 
+/* Home Styling */
+.home{
+    display: flex;
+    background:url(https://images.unsplash.com/photo-1655586602846-6f8f36c875ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80) no-repeat center;
+    height: 100vh; 
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(217, 216, 216);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home .max-width{
+    display:flex;
+    width:100%;
+}
+.home .max-width .row{
+    margin-right: 0;
+}
+.home .home-content .content-1{
+    font-size: 30px;
+}
+.home .home-content .content-2{
+    margin-left: -3px;
+    font-size: 70px;
+    font-weight: 600;
+}
+.home .home-content .content-3{
+    margin: 5px 0;
+    font-size: 40px;
+}
+.home .home-content .content-3 span{
+    font-weight: 500;
+     color: crimson;
+}
+.home .home-content a{
+    background:crimson;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 15px 35px;
+    border: 3px solid crimson;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    background: none;
+    color: crimson;
+}
+
 /* Nav Styling */
 
 .nav{
@@ -54,7 +105,7 @@ section .title{
 }
 .nav.sticky{
     padding: 15px 0;
-    background: burlywood;
+    background: rgb(203, 64, 57);
 }
 
 .nav .nav-menu li{
@@ -62,12 +113,12 @@ section .title{
     display: inline-block;
 }
 .nav .name-logo a {
-    color:rgb(87, 173, 248);
+    color:rgb(248, 87, 87);
     font-size: 35px;
     font-weight: 600;
 }
 .nav .name-logo a span {
-    color: rgb(206, 107, 82);
+    color: rgb(255, 255, 255);
     transition: all 0.3s ease;
 }
 .nav.sticky .logo a span{
@@ -91,7 +142,7 @@ transition: all 03s ease;
 
 .menu-btn{
     font-size: 25px;
-    color: rgb(122, 12, 12);
+    color: rgb(255, 255, 255);
     cursor: crosshair;
     display: auto;
 }
@@ -99,7 +150,7 @@ transition: all 03s ease;
     height:45px;
     width: 40px;
     position: fixed;
-    background: burlywood;
+    background: rgb(220, 67, 67);
     right:30px;
     bottom: 15px;
     text-align: center;
