@@ -333,12 +333,13 @@ section .title::after{
     content: "Open To Work!";
 }
 .contact .contact-content .column{
-    width: calc(50%-30px)
+    width: calc(50% - 30px);
 }
 .contact .contact-content .text{
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 25px;
+    
 }
 .contact .contact-content .column-left p{
     text-align: justify;
@@ -400,4 +401,26 @@ section .title::after{
     resize: none;
     padding-top:10px;
 }
-.contact .column-right form .button-area
+.contact .column-right form .button-area{
+    align-items: center;
+    display: flex;
+}
+.column-right form .button-area button{
+    display:block;
+    background: palevioletred;
+    flex-wrap: nowrap;
+    height: 45px;
+    width: 160px !important;
+    color:#fff;
+    border: 2px solid palevioletred;
+    border-radius: 7px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: all0.3s ease;
+}
+.column-right form .button-area button:hover{
+    color: palevioletred;
+    background: none;
+}
