@@ -328,3 +328,76 @@ section .title::after{
 .skills-content .column-right .python::before{
     width: 50%;
 }
+/* Contact Section Styling */
+.contact .title::after{
+    content: "Open To Work!";
+}
+.contact .contact-content .column{
+    width: calc(50%-30px)
+}
+.contact .contact-content .text{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.contact .contact-content .column-left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    align-items: center;
+    height: 60px;
+    display:flex
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row i{
+    font-size: 30px;
+    color: palevioletred;
+}
+.contact .contact-content .info .head{
+    font-weight: 550;
+}
+.contact .contact-content .info .sub-title{
+    color:#333
+}
+.contact .column-right form .fields{
+    display: flex;
+}
+.contact .column-right form .field,
+.contact .right form .field .field{
+    margin-bottom: 15px;
+    height: 45px;
+    width: 100%;
+}
+.contact .right form .textarea{
+    width: 100%;
+    height: 80px;
+}
+.contact .column-right form .head{
+    margin-right: 10px;
+}
+.contact .column-right form .field input,
+.contact .right form .textarea textarea{
+    height:100%;
+    width: 100%;
+    padding: 0 15px;
+    outline: none;
+    border: 2px solid lightcoral;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .column-right form .field input:focus,
+.contact .column-right .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.contact .column-right form .textarea textarea{
+    resize: none;
+    padding-top:10px;
+}
+.contact .column-right form .button-area
