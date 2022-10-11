@@ -16,13 +16,13 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #885;
+    background: rgb(240, 124, 226);
 }
 ::-webkit-scrollbar-track {
-    background: #f2f2f2;
+    background: #b58ef3;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #565;
+    background: rgb(3, 10, 3);
 }
 
 /* Nav Styling */
@@ -42,7 +42,7 @@ html{
 }
 .nav.sticky{
     padding: 15px 0;
-    background: rgb(203, 64, 57);
+    background: rgb(2, 0, 2);
 }
 
 .nav .nav-menu li{
@@ -50,7 +50,7 @@ html{
     display: inline-block;
 }
 .nav .name-logo a {
-    color:rgb(248, 87, 87);
+    color:rgb(242, 123, 204);
     font-size: 35px;
     font-weight: 600;
 }
@@ -88,7 +88,7 @@ color: #fff;
     height:45px;
     width: 40px;
     position: fixed;
-    background: rgb(220, 67, 67);
+    background: rgb(202, 112, 237);
     right:30px;
     bottom: 15px;
     text-align: center;
@@ -269,6 +269,17 @@ section .title::after{
 
 /* Skills Styling */
 
+.skills {
+    display: flex;
+    background:url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&dl=adrian-infernus-GLf7bAwCdYg-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb) no-repeat center;
+    height: 100vh; 
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(217, 216, 216);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .skills .title::after{
     content:"Technologies";
 }
@@ -290,7 +301,8 @@ section .title::after{
     background: palevioletred;
     display: inline-block;
     padding: 8px 16px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     border: 2px solid palevioletred;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -370,6 +382,17 @@ section .title::after{
     height: 15px;
     background: palegreen;
 }
+.skills .skills-content .column-right #quit-span{
+    border: solid darkblue;
+    width: 1%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+    position: relative;
+    height: 15px;
+    background: palegreen;
+}
 .skills .skills-content .column-right .line::before{
     content:"";
     background: palevioletred;
@@ -378,22 +401,19 @@ section .title::after{
     top: 0;
     height: 100%;
 }
-/* .skills-content .column-right .bars .info .html::before{
-    width: 90%;
-}
-.skills-content .column-right .css::before{
-    width: 70%;
-}
-.skills-content .column-right .js::before{
-    width:40%;
-}
-.skills-content .column-right .react::before{
-    width: 40%;
-}
-.skills-content .column-right .python::before{
-    width: 50%;
-} */
+
 /* Contact Section Styling */
+
+.contact{
+    display: flex;
+    background:url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&dl=luke-chesser-pJadQetzTkI-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb) no-repeat center;
+    height: 100vh; 
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(217, 216, 216);
+    background-attachment: fixed;
+    background-size: cover;
+}
 .contact .title::after{
     content: "Open To Work!";
 }
@@ -509,3 +529,21 @@ footer span a:hover{
 }
 
 /* Media Queries */
+
+@media (max-width:1100px) {
+    .about .about-content .column-left img {
+        height:300px;
+        width:300px
+    }
+}
+@media (max-width:950px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 950px){
+    .menu-btn{
+        display: block;
+        z-index:1000;
+    }
+}
