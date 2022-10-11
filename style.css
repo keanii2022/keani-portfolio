@@ -50,7 +50,7 @@ html{
     display: inline-block;
 }
 .nav .name-logo a {
-    color:rgb(242, 123, 204);
+    color:palevioletred;
     font-size: 35px;
     font-weight: 600;
 }
@@ -62,7 +62,7 @@ html{
     color: #ffff;
 }
 .nav.sticky .menu li a:hover{
-    color: aliceblue;
+    color:palegreen;
 }
 .nav .nav-menu li a{
 font-size: 18px;
@@ -73,7 +73,7 @@ transition: all 03s ease;
 color: #fff;
 }
 .nav .nav-menu li a:hover{
-    color:rgb(100, 150, 56);
+    color:palegreen;
 }
 
 /* Menu Buttons Styling */
@@ -88,7 +88,7 @@ color: #fff;
     height:45px;
     width: 40px;
     position: fixed;
-    background: rgb(202, 112, 237);
+    background: none;
     right:30px;
     bottom: 15px;
     text-align: center;
@@ -154,7 +154,7 @@ section .title::after{
     position: absolute;
     background: rgb(235, 235, 235);
     font-size: 25px;
-    color: crimson;
+    color: rgb(220, 20, 90);
     left: 50%;
     bottom: -8px;
     padding: 0 5px;
@@ -193,23 +193,23 @@ section .title::after{
 }
 .home .home-content .content-3 span{
     font-weight: 500;
-     color: crimson;
+     color: rgb(220, 20, 90);
 }
 .home .home-content a{
-    background:crimson;
+    background:none;
     color: #fff;
     margin-top: 20px;
     font-size: 25px;
     font-weight: 400;
     display: inline-block;
     padding: 15px 35px;
-    border: 3px solid crimson;
+    border: 5px solid palevioletred;
     border-radius: 5px;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
     background: none;
-    color: crimson;
+    color: palegreen;
 }
 
 /* About Styling */
@@ -239,10 +239,10 @@ section .title::after{
     color: crimson;
 }
 .about .about-content .column-right a{
-    background: crimson;
+    background: none;
     color: #fff;
     display: inline-block;
-    border: 2px solid crimson;
+    border: 5px solid palevioletred;
     border-radius: 6px;
     padding: 10px 30px;
     margin-top: 20px;
@@ -255,7 +255,7 @@ section .title::after{
 }
 .about .about-content .column-right a:hover{
     background: none;
-    color: crimson;
+    color: palegreen;
 }
 .about .about-content .column-left{
     width: 45%;
@@ -294,20 +294,20 @@ section .title::after{
 .skills .skills-content .column-left p{
     text-align: justify;
 }
-.skills .skills-content .column-left a{
+.skills .skills-content .column-right a{
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    background: palevioletred;
+    background: none;
     display: inline-block;
     padding: 8px 16px;
     margin-top: 10px;
     margin-bottom: 30px;
-    border: 2px solid palevioletred;
+    border: 5px solid palevioletred;
     border-radius: 8px;
     transition: all 0.3s ease;
 }
-.skills .skills-content .column-left a:hover{
+.skills .skills-content .column-right a:hover{
     color:palegreen;
     background: none;
 }
@@ -328,7 +328,7 @@ section .title::after{
     font-weight: 600;
 }
 .skills .skills-content .column-right #html-span{
-    border: solid darkblue;
+    border: solid paleturquoise;
     width: 90%;
     justify-content: space-between;
     align-items: center;
@@ -339,7 +339,7 @@ section .title::after{
     background: palegreen;
 }
 .skills .skills-content .column-right #css-span{
-    border: solid darkblue;
+    border: solid paleturquoise;
     width: 70%;
     justify-content: space-between;
     align-items: center;
@@ -350,7 +350,7 @@ section .title::after{
     background: palegreen;
 }
 .skills .skills-content .column-right #js-span{
-    border: solid darkblue;
+    border: solid paleturquoise;
     width: 60%;
     justify-content: space-between;
     align-items: center;
@@ -361,7 +361,7 @@ section .title::after{
     background: palegreen;
 }
 .skills .skills-content .column-right #react-span{
-    border: solid darkblue;
+    border: solid paleturquoise;
     width: 60%;
     justify-content: space-between;
     align-items: center;
@@ -372,7 +372,7 @@ section .title::after{
     background: palegreen;
 }
 .skills .skills-content .column-right #python-span{
-    border: solid darkblue;
+    border: solid paleturquoise;
     width: 50%;
     justify-content: space-between;
     align-items: center;
@@ -383,7 +383,7 @@ section .title::after{
     background: palegreen;
 }
 .skills .skills-content .column-right #quit-span{
-    border: solid darkblue;
+    border: solid paleturquoise;
     width: 1%;
     justify-content: space-between;
     align-items: center;
@@ -395,7 +395,7 @@ section .title::after{
 }
 .skills .skills-content .column-right .line::before{
     content:"";
-    background: palevioletred;
+    background: none;
     position: absolute;
     left: 0;
     top: 0;
@@ -442,7 +442,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 30px;
-    color: palevioletred;
+    color: none;
 }
 .contact .contact-content .info .head{
     font-weight: 550;
@@ -492,12 +492,12 @@ section .title::after{
 }
 .column-right form .button-area button{
     display:block;
-    background: palevioletred;
+    background: none;
     flex-wrap: nowrap;
     height: 45px;
     width: 160px !important;
     color:#fff;
-    border: 2px solid palevioletred;
+    border: 5px solid palevioletred;
     border-radius: 7px;
     outline: none;
     font-size: 20px;
@@ -506,8 +506,9 @@ section .title::after{
     transition: all0.3s ease;
 }
 .column-right form .button-area button:hover{
-    color: palevioletred;
+    color: palegreen;
     background: none;
+    transition: all 0.3 ease;
 }
 
 /* Footer Section */
@@ -546,4 +547,50 @@ footer span a:hover{
         display: block;
         z-index:1000;
     }
+}
+.nav .nav-menu{
+    text-align: center;
+    transition: all 0.3s ease;
+    padding-top: 90px;
+    position:fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+}
+.nav .nav-menu .active{
+    left:0;
+}
+.nav .nav-menu li{
+    display: block;
+}
+.nav .nav-menu li a{
+    margin: 20px 0;
+    font-size: 25px;
+    display: inline-block;
+}
+.home .home-content .content-2{
+font-size: 70px;
+}
+.home .home-content .content-3{
+    font-size: 40px;
+}
+.home .home-content a{
+    padding: 15px 35px;
+    font-size: 25px;
+}
+.max-width{
+    max-width: 950px;
+}
+.about .about-content .column{
+    width: 100%;
+}
+.about .about-content .column-left{
+    margin: 0 auto 65px;
+    justify-content: center;
+    display: flex;
+}
+.about .about-content .column-right{
+    flex: 100%;
 }
