@@ -710,14 +710,26 @@ footer span a:hover{
     .home .home-content .content-3 {
         font-size: 18px;
     }
-    .about .about-content .column-right .text,
+    /* .about .about-content .column-right .text,
      .skills .skills-content .column-left .text{
         font-size: 19px;
+    } */
+    .about {
+        height: 60vh;
+        display: block;
+        text-align: center;
     }
     .about .about-content .left img{
         height: 200px;
         width: 200px;
     }
+    .about .title {
+        height: fit-content;
+    }
+    /* .about .about-content .right .text .typing-2 span{
+        font-size: 1px;
+    } */
+    .about .about-content .right
     .contact .column-right form .fields{
         flex-direction: column;
     }
