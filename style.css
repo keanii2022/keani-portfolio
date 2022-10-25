@@ -351,7 +351,7 @@ section .title::after{
 }
 .skills .skills-content .column-right #js-span{
     border: solid paleturquoise;
-    width: 60%;
+    width: 70%;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -424,18 +424,19 @@ section .title::after{
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 25px;
-    
+    text-align-last: center;
 }
 .contact .contact-content .column-left p{
     text-align: justify;
 }
 .contact .contact-content .column-left .icons{
     margin: 10px 0;
+    text-align-last: justify;
 }
 .contact .contact-content .row{
     align-items: center;
     height: 60px;
-    display:flex
+    display:inline-flex
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
@@ -489,6 +490,7 @@ section .title::after{
 .contact .column-right form .button-area{
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 .column-right form .button-area button{
     display:block;
