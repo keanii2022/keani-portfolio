@@ -454,6 +454,11 @@ section .title::after{
 .contact .column-right form .fields{
     display: flex;
 }
+.contact .contact-content .column-right .social-links {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
 .contact .column-right form .field,
 .contact .right form .field .field{
     margin-bottom: 15px;
