@@ -701,16 +701,22 @@ footer span a:hover{
     .nav .sticky{
         padding:-1px 0;
     }
+    .home {
+        height: 50vh;
+    }
     .home .home-content .content-2 {
-        font-size: 50px
+        font-size: 33px
     }
     .home .home-content .content-3 {
-        font-size: 25px;
+        font-size: 18px;
     }
-    .about
     .about .about-content .column-right .text,
      .skills .skills-content .column-left .text{
         font-size: 19px;
+    }
+    .about .about-content .left img{
+        height: 200px;
+        width: 200px;
     }
     .contact .column-right form .fields{
         flex-direction: column;
