@@ -669,6 +669,14 @@ footer span a:hover{
     .about .about-content .column-right p{
         font-size: 10px;
     }
+    .about .about-content .column-right .story .text {
+        display: flex-end;
+        position: fixed;
+    }
+    .about .about-content .column-left img {
+        display: flex-start;
+        position: fixed;
+    }
 }
 @media (max-width: 500px) {
     .home .home-content .content-2 {

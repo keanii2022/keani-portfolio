@@ -42,7 +42,7 @@
             });
             
             var typed = new Typed(".typing-2", {
-                strings: ["Father", "Software Engineer", "Small Business Owner", "Writer", "Team Player", ],
+                strings: ["Dad", "Diligent Developer", "Sole Proprietor", "Wordsmith", "Constructive Colleague", ],
                 typeSpeed: 100,
                 backSpeed: 60,
                 loop: true
