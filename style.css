@@ -279,8 +279,8 @@ section .title::after{
     display: flex;
     background-color: pink;
     background:url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60) no-repeat center ;
-    height: 50vh;
-    min-height: 400px;
+    height: 100vh;
+    min-height: 500px;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -695,12 +695,19 @@ footer span a:hover{
     }
 }
 @media (max-width: 500px) {
+    .nav .max-width{
+        height: 20vh;
+    }
+    .nav .sticky{
+        padding:-1px 0;
+    }
     .home .home-content .content-2 {
         font-size: 50px
     }
     .home .home-content .content-3 {
         font-size: 25px;
     }
+    .about
     .about .about-content .column-right .text,
      .skills .skills-content .column-left .text{
         font-size: 19px;
@@ -724,3 +731,7 @@ footer span a:hover{
         line-height: 40px;
     }
 }
+@media only screen and (min-width: 600px) {
+
+}
+
