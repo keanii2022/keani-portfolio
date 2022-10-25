@@ -696,13 +696,13 @@ footer span a:hover{
 }
 @media (max-width: 500px) {
     .nav .max-width{
-        height: 20vh;
+        height: 8vh;
     }
     .nav .sticky{
         padding:-1px 0;
     }
     .home {
-        height: 50vh;
+        height: 60vh;
     }
     .home .home-content .content-2 {
         font-size: 33px
@@ -715,7 +715,7 @@ footer span a:hover{
         font-size: 19px;
     } */
     .about {
-        height: 60vh;
+        height: 65vh;
         display: block;
         text-align: center;
     }
@@ -725,10 +725,20 @@ footer span a:hover{
     }
     .about .title {
         height: fit-content;
+        font-size:25px;
+        margin-top: -50px;
+    }
+    .about h3::after{
+        font-size: 20px;
+    }
+    .about .about-content .column-right .story p{
+        font-size: 11px;
+        position: inherit;
     }
     /* .about .about-content .right .text .typing-2 span{
         font-size: 1px;
     } */
+
     .about .about-content .right
     .contact .column-right form .fields{
         flex-direction: column;
@@ -748,8 +758,5 @@ footer span a:hover{
         font-size: 25px;
         line-height: 40px;
     }
-}
-@media only screen and (min-width: 600px) {
-
 }
 
