@@ -230,7 +230,7 @@ section .title::after{
 .about .about-content .column-right{
     width: 55%;
 }
-.about .about-content .column-right .text{
+.about .about-content .column-right .story .text{
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: 500;
@@ -641,6 +641,10 @@ footer span a:hover{
         flex: 100%;
         position: fixed;
         justify-content: right;
+    }
+    .about .about-content .column-right .story .text {
+        display: flex-end;
+        position: fixed;
     }
     .skills .skills-content .column .contact .contact-content .column{
         margin-bottom: 40px;
