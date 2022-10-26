@@ -789,7 +789,7 @@ footer span a:hover{
         font-size: 33px
     }
     .home .home-content .content-3 {
-        font-size: 18px;
+        font-size: 13px;
     }
     /* .about .about-content .column-right .text,
      .skills .skills-content .column-left .text{
@@ -838,7 +838,32 @@ footer span a:hover{
         flex-direction: column;
     }
     .projects {
-        height:69vh;
+        height:86vh;
+    }
+    .projects .title{
+        height:17vh;
+        font-size: 29px;
+        background: none;
+        border: none;
+    }
+    .projects .projects-text{
+        font-size: 25px;
+    }
+    .projects a{
+        font-size: 10px;
+        margin-left:103px;
+    }
+    .skills{
+        height:86vh;
+    }
+    .skills .skills-content .column-left .text{
+        margin-left: 60px;
+    }
+    .skills .skills-content .column-right a{
+        margin-left:109px;
+    }
+    .skills .skills-content .column-right span{
+        font-size: 13px;
     }
     .contact .column-right form .name,
     .contact .column-right form .email {
