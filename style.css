@@ -783,9 +783,22 @@ footer span a:hover{
 @media (max-width: 400px) {
     .nav .max-width{
         height: 11vh;
+        margin-top:10px;
     }
     .nav .sticky{
         padding:-1px 0;
+    }
+    .nav .nav-menu li a {
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+        margin-left: 193px;
+        transition: all 0.3s ease;
+        color: #fff;
+    }
+    .nav ul.nav-menu{
+        margin-top: 18px;
+        margin-bottom:27px;
     }
     .home {
         height: 100vh;
@@ -855,8 +868,8 @@ footer span a:hover{
         font-size: 25px;
     }
     .projects a{
-        font-size: 10px;
-        margin-left:103px;
+        font-size: 14px;
+        margin-left:95px;
     }
     .skills{
         height:86vh;
@@ -866,6 +879,8 @@ footer span a:hover{
     }
     .skills .skills-content .column-right a{
         margin-left:109px;
+        font-size:14px;
+        margin-left:118px;
     }
     .skills .skills-content .column-right span{
         font-size: 13px;
