@@ -279,8 +279,8 @@ section .title::after{
     display: flex;
     background-color: pink;
     background:url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60) no-repeat center ;
-    height: 100vh;
-    min-height: 500px;
+    height: 50vh;
+    min-height: 400px;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -297,22 +297,6 @@ section .title::after{
     font-weight: 700;
     opacity: 0.6;
 }
-.projects a{
-    background: none;
-    color: #fff;
-    display: inline-block;
-    border: 5px solid palevioletred;
-    border-radius: 6px;
-    padding: 10px 30px;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-.projects a:hover{
-    color: palegreen;
-}
-
 
 /* Skills Styling */
 
@@ -695,69 +679,18 @@ footer span a:hover{
     }
 }
 @media (max-width: 500px) {
-    .nav .max-width{
-        height: 8vh;
-    }
-    .nav .sticky{
-        padding:-1px 0;
-    }
-    .home {
-        height: 79vh;
-    }
     .home .home-content .content-2 {
-        font-size: 33px
+        font-size: 50px
     }
     .home .home-content .content-3 {
-        font-size: 18px;
+        font-size: 25px;
     }
-    /* .about .about-content .column-right .text,
+    .about .about-content .column-right .text,
      .skills .skills-content .column-left .text{
         font-size: 19px;
-    } */
-    .about {
-        height: 79vh;
-        display: block;
-        text-align: center;
     }
-    .about .about-content .left img{
-        height: 200px;
-        width: 260px;
-        margin-top: -35px;
-    }
-    .about .title {
-        height: fit-content;
-        font-size:25px;
-        margin-top: -77px;
-    }
-    .about h3::after{
-        font-size: 20px;
-    }
-    .about .about-content .column-right .story p{
-        font-size: 11px;
-        position: inherit;
-        display: contents;
-    }
-    .about .about-content .column-right .text span {
-        font-size: 1px;
-        height: 1vh;
-    }
-    .about .about-content .column-right .story{
-        margin-top: 25px;
-        margin-left: 19px;
-        position: absolute;
-        width: 80%;
-    }
-    .about .about-content .column-right a{
-        font-size: 10px;
-        margin-top: 10vh;
-    }
-
-    /* .about .about-content .right
     .contact .column-right form .fields{
         flex-direction: column;
-    } */
-    .projects {
-        height:69vh;
     }
     .contact .column-right form .name,
     .contact .column-right form .email {
@@ -775,4 +708,3 @@ footer span a:hover{
         line-height: 40px;
     }
 }
-
