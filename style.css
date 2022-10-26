@@ -752,10 +752,91 @@ footer span a:hover{
         margin-top: 10vh;
     }
 
-    /* .about .about-content .right
+    .about .about-content .right
     .contact .column-right form .fields{
         flex-direction: column;
+    }
+    .projects {
+        height:69vh;
+    }
+    .contact .column-right form .name,
+    .contact .column-right form .email {
+        margin: 0;
+    }
+    .column-right form .error-box{
+        width: 150px;
+    }
+    .scroll-btn{
+        right: 15px;
+        bottom: 15px;
+        width: 32px;
+        height: 40px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .nav .max-width{
+        height: 11vh;
+    }
+    .nav .sticky{
+        padding:-1px 0;
+    }
+    .home {
+        height: 100vh;
+    }
+    .home .home-content .content-2 {
+        font-size: 33px
+    }
+    .home .home-content .content-3 {
+        font-size: 18px;
+    }
+    /* .about .about-content .column-right .text,
+     .skills .skills-content .column-left .text{
+        font-size: 19px;
     } */
+    .about {
+        height: 88vh;
+        display: block;
+        text-align: center;
+    }
+    .about .about-content .left img{
+        height: 165px;
+        width: 200px;
+        margin-top: -35px;
+    }
+    .about .title {
+        height: fit-content;
+        font-size:25px;
+        margin-top: -93px;
+    }
+    .about h3::after{
+        font-size: 20px;
+    }
+    .about .about-content .column-right .story p{
+        font-size: 10px;
+        position: inherit;
+        display: contents;
+    }
+    .about .about-content .column-right .text span {
+        font-size: 1px;
+        height: 1vh;
+    }
+    .about .about-content .column-right .story{
+        margin-top: 10px;
+        margin-left: 19px;
+        position: absolute;
+        width: 80%;
+    }
+    .about .about-content .column-right a{
+        font-size: 10px;
+        margin-top: 3vh;
+    }
+
+    .about .about-content .right
+    .contact .column-right form .fields{
+        flex-direction: column;
+    }
     .projects {
         height:69vh;
     }
