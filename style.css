@@ -591,11 +591,17 @@ footer span a:hover{
 /* Media Queries */
 
 @media (max-width: 1104px) {
+    .about {
+        display: flex;
+    }
     .about .about-content .left img{
         display: flex-start;
         height: 350px;
         width: 350px;
-        margin-left: ;
+        /* margin-left: ; */
+    }
+    .about .about-content .column-right {
+        width: 55%;
     }
     .about .about-content .column-right .story p{
         display: flex-end;
