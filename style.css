@@ -376,7 +376,7 @@ section .title::after{
 }
 .skills .skills-content .column-right #html-span{
     border: solid paleturquoise;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -392,6 +392,7 @@ section .title::after{
     align-items: center;
     display: flex;
     margin-bottom: 5px;
+    margin-left: 5px;
     position: relative;
     height: 15px;
     background: palegreen;
@@ -403,6 +404,7 @@ section .title::after{
     align-items: center;
     display: flex;
     margin-bottom: 5px;
+    margin-left: 25px;
     position: relative;
     height: 15px;
     background: palegreen;
@@ -414,6 +416,7 @@ section .title::after{
     align-items: center;
     display: flex;
     margin-bottom: 5px;
+    margin-left: -39px;
     position: relative;
     height: 15px;
     background: palegreen;
@@ -425,6 +428,7 @@ section .title::after{
     align-items: center;
     display: flex;
     margin-bottom: 5px;
+    margin-left: -85px;
     position: relative;
     height: 15px;
     background: palegreen;
@@ -436,6 +440,7 @@ section .title::after{
     align-items: center;
     display: flex;
     margin-bottom: 5px;
+    margin-left: -294px;
     position: relative;
     height: 15px;
     background: palegreen;
@@ -864,6 +869,42 @@ footer span a:hover{
     }
     .skills .skills-content .column-right span{
         font-size: 13px;
+    }
+    .skills .skills-content .column-right #js-span {
+        border: solid paleturquoise;
+        width: 70%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-bottom: 5px;
+        margin-left: 13px;
+        position: relative;
+        height: 15px;
+        background: palegreen;
+    }
+    .skills .skills-content .column-right #python-span {
+        border: solid paleturquoise;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-bottom: 5px;
+        margin-left: -78px;
+        position: relative;
+        height: 15px;
+        background: palegreen;
+    }
+    .skills .skills-content .column-right #quit-span {
+        border: solid paleturquoise;
+        width: 1%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-bottom: 5px;
+        margin-left: -250px;
+        position: relative;
+        height: 15px;
+        background: palegreen;
     }
     .contact .column-right form .name,
     .contact .column-right form .email {
