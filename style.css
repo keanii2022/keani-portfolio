@@ -591,16 +591,23 @@ footer span a:hover{
 /* Media Queries */
 
 @media (max-width: 1104px) {
-    .about .about-content .column-left img{
+    .about .about-content .left img{
         display: flex-start;
         height: 350px;
         width: 350px;
+        margin-left: ;
     }
-    .about .about-content .column-right p{
+    .about .about-content .column-right .story p{
         display: flex-end;
         height: 350px;
         width: 350px;
         position: fixed;
+    }
+    .about .about-content .column-right .story {
+        margin-top: 10px;
+        margin-left: 19px;
+        position: absolute;
+        width: 80%;
     }
 }
 @media (max-width: 991px) {
