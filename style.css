@@ -685,7 +685,9 @@ footer span a:hover{
         width:100%;
     }
 }
+@media (max-width: 720px){
 
+}
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -960,6 +962,7 @@ footer span a:hover{
         line-height: 40px;
     }
 }
+<<<<<<< HEAD
 @media (max-width: 375px){
     .about .max-width{
         margin-top: 20px;
@@ -968,6 +971,15 @@ footer span a:hover{
         margin-top: -40px;
     }
 
+=======
+@media (max-width:375px){
+    .about .about-content .column-right .story {
+        width: 335px;
+    }
+    .contact .title{
+        margin-top: -60px;
+    }
+>>>>>>> main
 }
 @media (max-width: 360px){
     .nav .max-width{
