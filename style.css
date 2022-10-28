@@ -960,3 +960,19 @@ footer span a:hover{
         line-height: 40px;
     }
 }
+@media (max-width: 360px){
+    .nav .max-width{
+        display: flex;
+        width: 104%
+    }
+    .about .about-content .column-right .story {
+        margin-top: 10px;
+        margin-left: -11px;
+        position: absolute;
+        width: 94%;
+    }
+    .contact .title::after {
+        content: "Open To Work!";
+        font-size: 22px;
+    }
+}
