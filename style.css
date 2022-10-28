@@ -831,6 +831,9 @@ footer span a:hover{
         display: block;
         text-align: center;
     }
+    .about .max-width{
+        margin-top: 70px;
+    }
     .about .about-content .left img{
         height: 165px;
         width: 200px;
@@ -855,9 +858,9 @@ footer span a:hover{
     }
     .about .about-content .column-right .story{
         margin-top: 10px;
-        margin-left: 19px;
+        margin-left: 1px;
         position: absolute;
-        width: 80%;
+        width: 87%;
     }
     .about .about-content .column-right a{
         font-size: 10px;
@@ -938,10 +941,16 @@ footer span a:hover{
         content: "Open To Work!";
         font-size: 23px;
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> main
     .contact .column-right form .name,
     .contact .column-right form .email {
         margin: 0;
+    }
+    .contact .contact-content .column-right{
+        margin-top: 40px;
     }
     .column-right form .error-box{
         width: 150px;
@@ -954,4 +963,39 @@ footer span a:hover{
         font-size: 25px;
         line-height: 40px;
     }
+}
+@media (max-width: 360px){
+    .nav .max-width{
+        display: flex;
+        width: 104%
+    }
+    .about .about-content .column-right .story {
+        margin-top: 10px;
+        margin-left: -11px;
+        position: absolute;
+        width: 94%;
+    }
+    .skills .skills-content .column-right #quit-span {
+        border: solid paleturquoise;
+        width: 1%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-bottom: 5px;
+        margin-left: -237px;
+        position: relative;
+        height: 15px;
+        background: palegreen;
+    }
+    .contact .title::after {
+        content: "Open To Work!";
+        font-size: 22px;
+    }
+    .contact .contact-content .text {
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align-last: center;
+    }
+
 }
