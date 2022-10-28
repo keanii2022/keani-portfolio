@@ -934,6 +934,10 @@ footer span a:hover{
         height: 15px;
         background: palegreen;
     }
+    .contact .title::after {
+        content: "Open To Work!";
+        font-size: 23px;
+    }
     .contact .column-right form .name,
     .contact .column-right form .email {
         margin: 0;
