@@ -860,7 +860,7 @@ footer span a:hover{
         margin-top: 10px;
         margin-left: 1px;
         position: absolute;
-        width: 87%;
+        width: 90%;
     }
     .about .about-content .column-right a{
         font-size: 10px;
@@ -959,6 +959,15 @@ footer span a:hover{
         font-size: 25px;
         line-height: 40px;
     }
+}
+@media (max-width: 375px){
+    .about .max-width{
+        margin-top: 20px;
+    }
+    .contact .max-width{
+        margin-top: -40px;
+    }
+
 }
 @media (max-width: 360px){
     .nav .max-width{
