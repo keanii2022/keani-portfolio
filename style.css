@@ -962,16 +962,6 @@ footer span a:hover{
         line-height: 40px;
     }
 }
-<<<<<<< HEAD
-@media (max-width: 375px){
-    .about .max-width{
-        margin-top: 20px;
-    }
-    .contact .max-width{
-        margin-top: -40px;
-    }
-
-=======
 @media (max-width:375px){
     .about .about-content .column-right .story {
         width: 335px;
@@ -979,7 +969,6 @@ footer span a:hover{
     .contact .title{
         margin-top: -60px;
     }
->>>>>>> main
 }
 @media (max-width: 360px){
     .nav .max-width{
