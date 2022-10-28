@@ -971,8 +971,27 @@ footer span a:hover{
         position: absolute;
         width: 94%;
     }
+    .skills .skills-content .column-right #quit-span {
+        border: solid paleturquoise;
+        width: 1%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-bottom: 5px;
+        margin-left: -237px;
+        position: relative;
+        height: 15px;
+        background: palegreen;
+    }
     .contact .title::after {
         content: "Open To Work!";
         font-size: 22px;
     }
+    .contact .contact-content .text {
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align-last: center;
+    }
+
 }
