@@ -831,6 +831,9 @@ footer span a:hover{
         display: block;
         text-align: center;
     }
+    .about .max-width{
+        margin-top: 70px;
+    }
     .about .about-content .left img{
         height: 165px;
         width: 200px;
@@ -855,9 +858,9 @@ footer span a:hover{
     }
     .about .about-content .column-right .story{
         margin-top: 10px;
-        margin-left: 19px;
+        margin-left: 1px;
         position: absolute;
-        width: 80%;
+        width: 87%;
     }
     .about .about-content .column-right a{
         font-size: 10px;
@@ -941,6 +944,9 @@ footer span a:hover{
     .contact .column-right form .name,
     .contact .column-right form .email {
         margin: 0;
+    }
+    .contact .contact-content .column-right{
+        margin-top: 40px;
     }
     .column-right form .error-box{
         width: 150px;
